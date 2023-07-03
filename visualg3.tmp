@@ -1,0 +1,60 @@
+algoritmo "semnome"
+var
+   sexo, corCabelo, estamos: caractere
+   idade, resp: inteiro
+
+inicio
+   Escreval("ESTAMOS FAZENDO UMA PESQUISA, PODE RESPONDER? ")
+   Leia(resp)
+   Se S entao
+      Escreval("PODEMOS PROSSEGUIR COM AS PERGUNTAS.")
+   Senao
+        Escreval("TERMINOU POR AQUI")
+   Escreva("QUAL SEU SEXO? [M/F] ")
+   Leia(sexo)
+
+   Escreva("QUAL SUA IDADE? ")
+   Leia(idade)
+
+   Escreva("QUAL A COR DO SEU CABELO: [Preto/Castanho/Loiro/Ruivo/Outras cores] ? ")
+   Leia(corCabelo)
+   // Realizar as ações com base nas respostas
+   Se sexo = "M" Entao
+      // Ações para sexo masculino
+   Senao
+   FimSe
+   Se idade < 18 Entao
+      // Ações para idade menor que 18 anos
+   Senão
+      // Ações para idade igual ou maior que 18 anos
+   FimSe
+   Se sexo = "F" Entao
+      // Ações para sexo feminino
+   Senao
+   FimSe
+   Se idade < 18 Entao
+      // Ações para idade menor que 18 anos
+   Senão
+      // Ações para idade igual ou maior que 18 anos
+   FimSe
+   // Realizar ações específicas para cada cor de cabelo
+   Se corCabelo = "Preto" Entao
+      // Ações para cabelo preto
+   Senao corCabelo = "Castanho" Entao
+      // Ações para cabelo castanho
+   FimSe
+   Se corCabelo = "Loiro" Entao
+      // Ações para cabelo loiro
+   Senao corCabelo = "Ruivo" Entao
+   FimSe
+   // Ações para cabelo ruivo
+   Se corcabelo = "outras cores" Entao
+      // Ações para outras cores de cabelo
+   Senao
+   FimSe
+   Escreva("ONDE MORA? ")
+   Leia(resp)
+   Escreva("QUANTAS PESSOAS MORAM NA SUA CASA? ")
+   Leia(resp)
+   Escreva("OBRIGADO! RETORNAREMOS COM A RESPOSTA DA PESQUISA EM SEU E-MAIL.")
+fimalgoritmo

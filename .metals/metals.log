@@ -1,0 +1,33 @@
+2023.07.03 19:49:03 INFO  Started: Metals version 0.11.12 in workspace 'C:\Users\saraa\OneDrive\햞ea de Trabalho\Exemplos de algoritimos' for client Visual Studio Code 1.78.2.
+jul 03, 2023 7:49:04 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFORMA합ES: Flyway Community Edition 9.16.3 by Redgate
+jul 03, 2023 7:49:04 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFORMA합ES: See release notes here: https://rd.gt/416ObMi
+jul 03, 2023 7:49:04 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFORMA합ES: 
+jul 03, 2023 7:49:05 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFORMA합ES: Database: jdbc:h2:file:C:\Users\saraa\OneDrive\햞ea de Trabalho\Exemplos de algoritimos\.metals\metals (H2 2.1)
+jul 03, 2023 7:49:05 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFORMA합ES: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+jul 03, 2023 7:49:05 PM org.flywaydb.core.internal.command.DbValidate validate
+INFORMA합ES: Successfully validated 4 migrations (execution time 00:00.135s)
+jul 03, 2023 7:49:05 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFORMA합ES: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+jul 03, 2023 7:49:05 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFORMA합ES: Current version of schema "PUBLIC": << Empty Schema >>
+jul 03, 2023 7:49:05 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFORMA합ES: Migrating schema "PUBLIC" to version "1 - Create tables"
+jul 03, 2023 7:49:05 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFORMA합ES: Migrating schema "PUBLIC" to version "2 - Server discovery"
+jul 03, 2023 7:49:05 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFORMA합ES: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+jul 03, 2023 7:49:05 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFORMA합ES: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+jul 03, 2023 7:49:05 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFORMA합ES: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.156s)
+2023.07.03 19:49:06 INFO  time: initialize in 2.23s
+2023.07.03 19:49:07 WARN  Build server is not auto-connectable.
+2023.07.03 19:49:07 WARN  no build tool detected in workspace 'C:\Users\saraa\OneDrive\햞ea de Trabalho\Exemplos de algoritimos'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.07.03 20:11:51 INFO  Shutting down server
+2023.07.03 20:11:51 INFO  shutting down Metals
+2023.07.03 20:11:51 INFO  Exiting server
